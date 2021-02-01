@@ -1,3 +1,5 @@
+#!/usr/bin/python
+# -*- coding:utf-8 -*-
 from Tools import tools_v000 as tools
 import os
 from os.path import dirname
@@ -16,7 +18,7 @@ tools.openBrowserChrome()
 
 m.connectToMyHours()
 m.enterCredentials()
-m.startTrackWithDescription('', 'Mail + administration', 'Business operations (non project / service related tasks) (P0710) - Business operations (non project / service related tasks)')
+m.startTrackWithDescription(u'', u'Mail + administration', u'Business operations (non project / service related tasks) (P0710) - Business operations (non project / service related tasks)')
 
 # Exit Chrome
 tools.driver.quit()
