@@ -11,7 +11,7 @@ save_path = os.path.dirname(os.path.abspath("__file__"))
 propertiesFolder_path = save_path + "/"+ "Properties"
 
 # Example of used
-# user_text = tools.readProperty(propertiesFolder_path, 'cafeAdministration', 'user_text=')
+# user_text = tools.readProperty(propertiesFolder_path, 'mailadministration', 'user_text=')
 
 # Open Browser
 tools.openBrowserChrome()
